@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded',function(){
 		/*$.get('http://' + ip,function(data){
 			document.getElementById('action').innerHTML = data;
 		});*/
-		document.getElementById('action').innerHTML = '<object class="servervid" data="http://'+ ip +'" type="text/html"></object>';
+		document.getElementById('action').innerHTML = '<object class="servervid" data="http://'+ ip +':5000" type="text/html"></object>';
 		e.preventDefault();
 	}
 
